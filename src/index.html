@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="./src/stylesheet/style.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script type="text/javascript" src="./src/index.js"></script>
+  <title>Idap test</title>
+  </head>
+
+  <body>
+    <input type="checkbox" id="nav-toggle" hidden>
+    <nav class="nav">
+      <div class="logo">
+        <div class="logo__number">
+          <p>2</p>
+        </div>
+        <img src="./src/images/face.jpeg">
+      </div>
+      <div class="nav__icons">
+        <i class="material-icons">fiber_manual_record</i>
+        <i class="material-icons">fiber_manual_record</i>
+        <i class="material-icons">fiber_manual_record</i>
+      </div>
+      <div class="nav__list">
+        <ul>
+          <li class="nav__list_active flex">
+            <div class="nav__list_vertical_strip d-b"></div>
+            <a href="#">
+              <i class="material-icons">track_changes</i>
+              <p>Board</p>
+            </a>
+          </li>
+          <li class="nav__icons">
+            <i class="material-icons">fiber_manual_record</i>
+            <i class="material-icons">fiber_manual_record</i>
+            <i class="material-icons">fiber_manual_record</i>
+          </li>
+          <div class="logo__number logo__number_color">
+            <p>9</p>
+          </div>
+          <li class="flex">
+            <div class="nav__list_vertical_strip"></div>
+            <a href="#" onclick="alert('Sorry, the site is under construction.')">
+              <i class="material-icons">dehaze</i>
+              <p>Projects</p>
+            </a>
+          </li>
+          <li class="nav__icons">
+            <i class="material-icons">fiber_manual_record</i>
+            <i class="material-icons">fiber_manual_record</i>
+            <i class="material-icons">fiber_manual_record</i>
+          </li>
+          <li class="flex">
+            <div class="nav__list_vertical_strip"></div>
+            <a href="#" onclick="alert('Sorry, the site is under construction.')">
+              <i class="material-icons">settings</i>
+              <p>Setting</p>
+            </a>
+          </li>
+        </ul>
+        <ul class="nav__list_bottom">
+          <div class="logo__number">
+            <p>3</p>
+          </div>
+          <li class="flex">
+            <div class="nav__list_vertical_strip"></div>
+            <a href="#" onclick="alert('Sorry, the site is under construction.')">
+              <i class="material-icons">public</i>
+              <p>Upgrade</p>
+            </a>
+          </li>
+          <li class="nav__icons">
+            <i class="material-icons">fiber_manual_record</i>
+            <i class="material-icons">fiber_manual_record</i>
+            <i class="material-icons">fiber_manual_record</i>
+          </li>
+          <li class="nav__list_active">
+            <a href="#" onclick="alert('Sorry, the site is under construction.')">
+              <i class="material-icons">power_settings_new</i>
+              <p>Logout</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section>
+      <div class="header">
+        <div>
+          <button class="active__button">
+            <i class="material-icons">replay</i>
+          </button>
+          <button class="name">
+            <p>Dashboard</p>
+          </button>
+        </div>
+        <div class="header__right">
+          <button class="green__button">
+            <i class="material-icons">expand_more</i>
+          </button>
+          <button class="dropdown__list">
+            <i class="material-icons">supervised_user_circle</i><p>USER ONLINE</p><i class="material-icons">expand_more</i>
+          </button>
+        </div>
+      </div>
+      <div class="menu">
+        <div class="menu__button">
+          <div class="menu__button_border">
+            <button>
+              <i class="material-icons">schedule</i>
+              <h3>Active Projects</h3>
+            </button>
+          </div>
+          <button onclick="alert('Sorry, the site is under construction.')">
+            <i class="material-icons send">send</i>
+            <h3>Messenger</h3>
+          </button>
+          <input class="menu__text grey__text" type="text" placeholder="Search Project, User, Task, etc...">
+        </div>
+      </div>
+      <div class="flex">
+        <div class="left__content">
+          <div class="flex left__content_header">
+            <input class="left__content_text grey__text" type="text" placeholder="Search a Project with Name, Task, User...">
+            <div class="right__position flex">
+              <button class="dropdown__list">
+                <p><b>New projects</b> (descending)</p>
+                <i class="material-icons">expand_more</i>
+              </button>
+              <button class="active__button" onclick= "alert('Sorry, you cannot create a form')">
+                <i class="material-icons">add</i>
+              </button>
+            </div>
+          </div>
+          <div id="left-content"></div>
+        </div>
+        <div class="right__content">
+          <div class="right__content_list flex">
+            <div class="avatar">
+              <div class="avatar__online"></div>
+              <img src="./src/images/face.jpeg">
+            </div>
+            <div class="right__content_text">
+              <p><b>Mark P.</b> add an image into Worlda</p>
+              <p>TODAY, 10:30 PM</p>
+            </div>
+          </div>
+          <div class="right__content_list flex">
+            <div class="avatar">
+              <div class="avatar__online"></div>
+              <img src="./src/images/face.jpeg">
+            </div>
+            <div class="right__content_text">
+              <p><b>Mark P.</b> add an image into Worlda</p>
+              <p>TODAY, 10:30 PM</p>
+            </div>
+          </div>
+          <div class="right__content_list flex">
+            <div class="avatar">
+              <div class="avatar__online"></div>
+              <img src="./src/images/face.jpeg">
+            </div>
+            <div class="right__content_text">
+              <p><b>Mark P.</b> add an image into Worlda</p>
+              <p>TODAY, 10:30 PM</p>
+            </div>
+          </div>
+          <div class="right__content_list flex">
+            <div class="avatar">
+              <div class="avatar__online"></div>
+              <img src="./src/images/face.jpeg">
+            </div>
+            <div class="right__content_text">
+              <p><b>Mark P.</b> add an image into Worlda</p>
+              <p>TODAY, 10:30 PM</p>
+            </div>
+          </div>
+          <div class="right__content_list flex">
+            <div class="avatar">
+              <div class="avatar__online"></div>
+              <img src="./src/images/face.jpeg">
+            </div>
+            <div class="right__content_text">
+              <p><b>Mark P.</b> add an image into Worlda</p>
+              <p>TODAY, 10:30 PM</p>
+            </div>
+          </div>
+          <div class="right__content_list flex">
+            <div class="avatar">
+              <div class="avatar__online"></div>
+              <img src="./src/images/face.jpeg">
+            </div>
+            <div class="right__content_text">
+              <p><b>Mark P.</b> add an image into Worlda</p>
+              <p>TODAY, 10:30 PM</p>
+            </div>
+          </div>
+          <div class="right__content_list flex">
+            <div class="avatar">
+              <div class="avatar__online"></div>
+              <img src="./src/images/face.jpeg">
+            </div>
+            <div class="right__content_text">
+              <p><b>Mark P.</b> add an image into Worlda</p>
+              <p>TODAY, 10:30 PM</p>
+            </div>
+          </div>
+          <div class="right__content_list flex">
+            <div class="avatar">
+              <div class="avatar__online"></div>
+              <img src="./src/images/face.jpeg">
+            </div>
+            <div class="right__content_text">
+              <p><b>Mark P.</b> add an image into Worlda</p>
+              <p>TODAY, 10:30 PM</p>
+            </div>
+          </div>
+          <div class="left__content_footer flex">
+            <h3>Activity Archiv</h3>
+            <i class="material-icons color__icon">keyboard_arrow_right</i>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
+
